@@ -13,7 +13,7 @@
 ![Prototipo web movil](assets/img/movil.jpg) -->
 
 ## Prototipo de colores
-![Paleta de colores 1](https://github.com/lucyloules/lucia.lagos/blob/master/img/paleta01.jpg)
+![Paleta de colores 1](https://github.com/lucyloules/lucia.lagos/blob/master/assets/img/paleta01.jpg?raw=true)
 COLOR CODES
 #E65F64
 #784D7B
