@@ -8,9 +8,17 @@
 + Contacto y 
 + Descarga de CV
 
+## Movile
 
-<!-- ![Prototipo web desktop](assets/img/desktop.jpg)
-![Prototipo web movil](assets/img/movil.jpg) -->
+![Web movil](assets/img/Mock01.jpg)
+![Contact](assets/img/Mock02.jpg)
+
+## Desktop
+![Inicio](assets/img/desktop01.jpg)
+![About & Skills](assets/img/desktop02.jpg)
+![Proyects & Contact](assets/img/desktop03.jpg)
+
+
 
 ## Prototipo de colores
 ![Paleta de colores 1](https://github.com/lucyloules/lucia.lagos/blob/master/img/paleta01.jpg)
