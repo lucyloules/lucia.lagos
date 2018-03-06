@@ -2,3 +2,19 @@
 width: 100px;
 height: 100px;
 }
+/* #logo {
+  margin-left: 2%;
+} */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  /* quitar */
+  /*  background-color: #000; */
+  /* #e65f64 784d7b */
+  background-image: url(santiago.jpj);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.8)
+}

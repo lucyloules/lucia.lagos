@@ -16,8 +16,8 @@
 <body>
   <!-- Navbar goes here -->
   <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Lu</a>
+    <div class="nav-wrapper container">
+      <a href="#!" id="logo" class="brand-logo">Lu</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse">
         <i class="material-icons">menu</i>
       </a>
@@ -86,10 +86,11 @@
 </nav class="container">
 <!-- Sections -->
 <div id="home" class="section white home">
+  <div id="parparticles-js"></div>
   <div class="row container center">
     <h1>      Hola!, soy Lucia Lagos, </h1>
-    <p class="grey-text text-darken-3 lighten-3">desarroladora Front-End de Laboratoria</p>
-    <a href="#contactME" class="btnContact">Contac me</a>
+    <h2 class="grey-text text-darken-3 lighten-3">desarroladora Front-End de Laboratoria</h2>
+    <a href="#contactME" class="btnContact">Contact me</a>
     <a href="/assets/docs/cv.pdf" class="btnCV waves-effect waves-light btn" target=_blank> Download CV
 <i class="material-icons right">file_download</i>
 </a>
@@ -102,10 +103,7 @@
   <div class="row container">
     <div class="col m6">
       <h2 class="header">About</h2>
-      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia odit eveniet esse quae consequuntur exercitationem
-        distinctio voluptatum, consequatur tenetur nemo! Quam nulla maxime eveniet maiores itaque neque? Tempora, eum? Lorem ipsum
-        dolor, sit amet consectetur adipisicing elit. Minima nulla laboriosam cupiditate veniam, dolores ipsum eligendi illum praesentium
-        autem! Suscipit placeat sed rerum nemo delectus nesciunt praesentium consequuntur repellendus quam?</p>
+      <p class="grey-text text-darken-3 lighten-3">Soy web developer de Laboratoria desde 2017, cuando fuí seleccionada para participar en un Bootcamp de 6 meses. Ha sido la mejor experiencia de aprendizaje y autoconocimiento, ya que si bien antes había estudiado informática, en Laboratoria descubrí cuanto amó la tecnología. Descubrí que no quiero pasar mi vida sin tener algo nuevo que aprender... Mi sueño a corto plazo es terminar la Ingeniería en Informática y poder dirigir mis propios proyectos. </p>
       </div>
       <div class="col m6">
         <h2 class="header">Animation no definida</h2>
@@ -182,8 +180,7 @@
           </div>
         </div>
         <div class="col s12 m6">
-         <div class="map border"> mapa ubicacion con google maps
-         </div>
+          <div id="map"></div>
           
         </div>
       </div>
@@ -194,7 +191,11 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="assets/js/app.js"></script>   
+    <!-- particles -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/particles-config.js"></script>
+    <script src="assets/js/app.js"></script>  
+  
   </body>
   </html>
   
