@@ -1,17 +1,12 @@
 $(document).ready(function() {
   $('.parallax').parallax(); // parallax
   $('.button-collapse').sideNav(); // SideNav Initialization
+  $('.carousel').carousel();
+  
 });
-/* // Scrollbar Initialization
-var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-Ps.initialize(sideNavScrollbar);
 
-*/
-/* $(function initial() {
-  $(".element").typed({
-    strings: ["Front-End Developer"],
-    typeSpeed: 70,
-    showCursor: false,
-  });
-});  */
  
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
